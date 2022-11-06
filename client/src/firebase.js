@@ -1,13 +1,16 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: `${process.env.REACT_APP_PROJECT_ID}.firebaseapp.com`,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: "covercove-29842.appspot.com",
-  messagingSenderId: process.env.REACT_APP_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID
+  apiKey: "AIzaSyC73YdkW6ZRwRoAHERrQwOTw_LlRcvfEvg",
+  authDomain: "onlinebookdemp.firebaseapp.com",
+  projectId: "onlinebookdemp",
+  storageBucket: "onlinebookdemp.appspot.com",
+  messagingSenderId: "338553860914",
+  appId: "1:338553860914:web:4e2f838b915851f3959d2b",
+  measurementId: "G-37YTD4TJ98"
 };
+
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
