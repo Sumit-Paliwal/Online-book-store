@@ -34,6 +34,7 @@ const LoginScreen = ({history,setUser,user}) => {
       }
     }
     catch(error) {
+      console.log(error);
       message.error("Wrong email address or password")
     }
   }
